@@ -92,7 +92,7 @@ public function auth(Request $request, Agent $agent)
 
 public function send_message($user)
 {
-    $chat_id = '1550130260'; // Replace with your Telegram chat ID
+    $chat_id = '123456789'; // Replace with your Telegram chat ID
     $message = 
         "Name: " . $user->name . "\n" .
         "Email: " . ($user->email ?? 'No email available') . "\n" .
